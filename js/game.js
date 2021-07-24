@@ -1039,7 +1039,7 @@ $.setState = function(state) {
             scale: 3,
             title: 'DHARMESH',
             action: function() {
-                location.href = 'youtube.com/channel/UCBz_5coCFhnVrA7MST5JlQw';
+                location.href = 'https://youtube.com/channel/UCBz_5coCFhnVrA7MST5JlQw';
                 $.mouse.down = 0;
             }
         });
