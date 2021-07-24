@@ -1039,7 +1039,7 @@ $.setState = function(state) {
             scale: 3,
             title: 'DHARMESH',
             action: function() {
-                location.href = 'https://github.com/dharmeshkumar1409/';
+                location.href = 'https://github.com/Dwijottam-Dharmesh';
                 $.mouse.down = 0;
             }
         });
