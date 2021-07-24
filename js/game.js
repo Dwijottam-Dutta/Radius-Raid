@@ -1039,7 +1039,7 @@ $.setState = function(state) {
             scale: 3,
             title: 'DHARMESH',
             action: function() {
-                location.href = 'https://github.com/Dwijottam-Dharmesh';
+                location.href = 'youtube.com/channel/UCBz_5coCFhnVrA7MST5JlQw';
                 $.mouse.down = 0;
             }
         });
