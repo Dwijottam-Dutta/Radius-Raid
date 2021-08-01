@@ -215,8 +215,8 @@ $.renderFavicon = function() {
             }
         }
     }
-    favctx.fill();
-    favicon.href = favc.toDataURL();
+    // favctx.fill();
+    // favicon.href = favc.toDataURL();
 };
 
 /*==============================================================================
@@ -1039,7 +1039,7 @@ $.setState = function(state) {
             scale: 3,
             title: 'DHARMESH',
             action: function() {
-                location.href = 'https://www.youtube.com/channel/UCK2mTl2pFK_a139oYyDF24A';
+                location.href = 'https://github.com/dharmeshkumar1409/';
                 $.mouse.down = 0;
             }
         });
