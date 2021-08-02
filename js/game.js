@@ -384,11 +384,11 @@ $.renderInterface = function() {
             render: 1
         });
         if ($.instructionTick < $.instructionTickMax * 0.25) {
-            var alpha = ($.instructionTick / ($.instructionTickMax * 0.25)) * 1;
+            alpha = ($.instructionTick / ($.instructionTickMax * 0.25)) * 1;
         } else if ($.instructionTick > $.instructionTickMax - $.instructionTickMax * 0.25) {
-            var alpha = (($.instructionTickMax - $.instructionTick) / ($.instructionTickMax * 0.25)) * 1;
+            alpha = (($.instructionTickMax - $.instructionTick) / ($.instructionTickMax * 0.25)) * 1;
         } else {
-            var alpha = 1;
+            alpha = 1;
         }
         alpha = Math.min(1, Math.max(0, alpha));
 
@@ -1039,7 +1039,7 @@ $.setState = function(state) {
             scale: 3,
             title: 'DHARMESH',
             action: function() {
-                location.href = 'https://dwijottam-dharmesh.github.io/DJ-DK-Portfolio/';
+                location.href = 'https://dwijottam-dharmesh.github.io/DJ-DK-Portfolio';
                 $.mouse.down = 0;
             }
         });
