@@ -1039,7 +1039,7 @@ $.setState = function(state) {
             scale: 3,
             title: 'DHARMESH',
             action: function() {
-                location.href = 'https://github.com/dharmeshkumar1409/';
+                location.href = 'https://dwijottam-dharmesh.github.io/DJ-DK-Portfolio/';
                 $.mouse.down = 0;
             }
         });
